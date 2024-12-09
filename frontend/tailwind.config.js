@@ -1,3 +1,5 @@
+import { plugin } from 'postcss';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode : 'class',
@@ -8,6 +10,11 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    plugin,
+  ],
+  variants:{
+    scrollbar: ['dark'],
+  }
 }
 
