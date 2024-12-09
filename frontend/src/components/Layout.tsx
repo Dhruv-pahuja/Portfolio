@@ -19,7 +19,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       {/* Footer */}
       <footer className="bg-gray-200 dark:bg-gray-800 p-4 fixed bottom-0 left-0 w-full">
-        <p className="text-center text-sm dark:text-white">© 2025 Dhruv Pahuja</p>
+        <p className="text-center text-sm dark:text-white  text-[#e71a47]">© 2025 Dhruv Pahuja</p>
       </footer>
     </div>
   );
