@@ -9,6 +9,9 @@ const App: React.FC = () => {
         <p className="text-gray-700 dark:text-gray-300 ">
           This is a single-page portfolio showcasing my projects and skills.
         </p>
+        <hr className='mt-8 mx-4' />
+        <h2>My work</h2>
+        <hr className='mt-8 mx-4' />
         <Contact/>
       </div>
     </Layout>
