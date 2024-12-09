@@ -23,9 +23,9 @@ const Navbar: React.FC = () => {
   
 
   return (
-    <nav className="py-4 bg-gray-200 dark:bg-gray-800 flex justify-between items-center px-4">
+    <nav className="py-4 bg-gray-200 dark:bg-black border-y border-gray-500 flex justify-between items-center px-4 rounded-3xl m-3 fixed w-[80vw] place-content-center z-30">
       {/* Logo */}
-      <h1 className="text-3xl dark:text-white">Dhruv.</h1>
+      <h1 className="text-xl md:text-3xl dark:text-white font-bold"><span className="text-[#ff2655]">D</span>hruv.<span className="text-[#ff2655]">P</span>ahuja</h1>
       <button
         className="md:hidden text-gray-800 dark:text-white"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -36,13 +36,13 @@ const Navbar: React.FC = () => {
       <div
         className={`${
           isMenuOpen ? "block" : "hidden"
-        } absolute top-16 left-0 md:relative md:top-0 md:left-0 w-full md:w-auto bg-gray-200 dark:bg-slate-800 md:flex items-center px-4 md:px-0`}
+        } absolute top-16 left-0 md:relative md:top-0 md:left-0  md:w-auto border-b border-x md:border-none md:p-0 p-4 w-full rounded-xl border-gray-500 bg-gray-200 dark:bg-inherit font-semibold md:flex items-center px-4 md:px-0`}
       >
         <ul className="flex flex-col md:flex-row dark:text-white w-full md:w-auto">
           {["home", "about", "services", "portfolio", "contact"].map((item) => (
             <li
               key={item}
-              className="mx-2 py-2 md:py-0 cursor-pointer relative group text-center md:text-left"
+              className="mx-2 py-2 md:py-0 cursor-pointer relative group text-center md:text-lg md:text-left"
               onClick={() => handleScroll(item)}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}

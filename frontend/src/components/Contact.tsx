@@ -35,8 +35,8 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="min-h-screen flex flex-col md:flex-row items-center justify-between justify-items-center  px-4 py-6 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white md:mb-4 mb-7">
-      <div className="space-y-8 md:w-1/2 w-full flex flex-col items-center self-center md:items-start place-content-center justify-around mt-7 md:mt-0 md:ml-12">
+    <section id="contact" className="min-h-[90vh] flex flex-col md:flex-row items-center justify-between justify-items-center  px-4 py-6 bg-gray-100 dark:bg-black text-gray-800 dark:text-white md:mb-4 mb-7">
+      <div className="space-y-8 md:w-1/2 w-[80vh] flex flex-col items-center self-center md:items-start place-content-center justify-around mt-7 md:mt-0 md:ml-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-center md:text-left">
           Contact Me
         </h2>
@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
 
       <form
         onSubmit={handleSubmit}
-        className="w-full md:w-1/2 bg-white dark:bg-gray-800 rounded-lg p-6 md:p-8 shadow-lg mt-5 md:mt-0 md:mb-3 space-y-8"
+        className="w-full md:w-1/2 bg-white dark:bg-black rounded-lg p-6 md:p-8 shadow-lg mt-5 md:mt-0 md:mb-3 space-y-8"
       >
         <input
           type="text"
@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
           placeholder="Your Name"
           value={formData.name}
           onChange={handleChange}
-          className="w-full p-4 bg-gray-100 dark:bg-gray-700 rounded-md text-gray-800 dark:text-white placeholder-gray-400 focus:ring-2 focus:ring-[#e71a47]"
+          className="w-full p-4 bg-gray-100 placeholder:text-gray-500 dark:placeholder:text-gray-400 dark:bg-gray-700 rounded-md text-gray-800 dark:text-white placeholder-gray-400 focus:ring-2 focus:ring-[#e71a47]"
         />
         <input
           type="email"
@@ -91,7 +91,7 @@ const Contact: React.FC = () => {
           placeholder="Your Email"
           value={formData.email}
           onChange={handleChange}
-          className="w-full p-4 bg-gray-100 dark:bg-gray-700 rounded-md text-gray-800 dark:text-white placeholder-gray-400 focus:ring-2 focus:ring-[#e71a47]"
+          className="w-full p-4 bg-gray-100 placeholder:text-gray-500 dark:placeholder:text-gray-400 dark:bg-gray-700 rounded-md text-gray-800 dark:text-white placeholder-gray-400 focus:ring-2 focus:ring-[#e71a47]"
         />
         <textarea
           name="message"
@@ -99,7 +99,7 @@ const Contact: React.FC = () => {
           rows={5}
           value={formData.message}
           onChange={handleChange}
-          className="w-full p-4 bg-gray-100 dark:bg-gray-700 rounded-md text-gray-800 dark:text-white placeholder-gray-400 focus:ring-2 focus:ring-[#e71a47]"
+          className="w-full p-4 bg-gray-100 placeholder:text-gray-500 dark:placeholder:text-gray-400 dark:bg-gray-700 rounded-md text-gray-800 dark:text-white placeholder-gray-400 focus:ring-2 focus:ring-[#e71a47]"
         />
         <button
           type="submit"

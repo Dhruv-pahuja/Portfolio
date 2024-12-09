@@ -12,10 +12,10 @@ const ToggleThemeBtn:React.FC = () => {
     return (
         <div>
             <button
-        className={`p-2 rounded-full border-2 flex items-center justify-center transition-colors duration-300 ${
+        className={`p-2 mx-2 rounded-full border-2  flex items-center justify-center transition-colors duration-300 ${
           theme === 'light'
-            ? 'bg-blue-500 text-white border-blue-500 hover:bg-blue-400'
-            : 'bg-slate-800 text-white hover:bg-slate-700'
+            ? 'bg-[#ff2655] text-white border-2 border-black hover:bg-[#cd0f38]'
+            : 'bg-inherit text-white hover:bg-slate-800'
         }`}
         onClick={() => dispatch(toggleTheme())}
         aria-label="Toggle Theme"
