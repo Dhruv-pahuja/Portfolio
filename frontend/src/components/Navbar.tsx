@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ToggleThemeBtn } from "../components/index";
 import { Menu, X } from "lucide-react";
+import "./Navbar.css"
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,10 +9,18 @@ const Navbar: React.FC = () => {
   const handleScroll = (id: string) => {
     const section = document.getElementById(id);
     if (section) {
+      section.classList.add("pop-effect");
+  
       section.scrollIntoView({ behavior: "smooth" });
-      setIsMenuOpen(false);
+  
+      setTimeout(() => {
+        section.classList.remove("pop-effect");
+      }, 500); 
+  
+      setIsMenuOpen(false); 
     }
   };
+  
 
   return (
     <nav className="py-4 bg-gray-200 dark:bg-gray-800 flex justify-between items-center px-4">
