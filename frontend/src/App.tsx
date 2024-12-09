@@ -1,5 +1,5 @@
 import React from 'react';
-import {Layout,Contact} from "./components/index"
+import {Layout,Contact,About} from "./components/index"
 
 const App: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const App: React.FC = () => {
           This is a single-page portfolio showcasing my projects and skills.
         </p>
         <hr className='mt-8 mx-4 border-gray-400' />
-        <h2>My work</h2>
+        <About/>
         <hr className='mt-8 mx-4 border-gray-400' />
         <Contact/>
       </section>
