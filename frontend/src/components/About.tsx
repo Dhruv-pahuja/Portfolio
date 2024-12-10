@@ -15,9 +15,9 @@ const AboutMe: React.FC = () => {
     >
       <div className="max-w-5xl w-full text-center">
         <div className="flex flex-col md:flex-row items-center gap-6 mb-10 w-full">
-          <div className="w-1/3 h-70 rounded-lg overflow-hidden border-4 border-gray-300 dark:border-gray-700">
+          <div className="w-1/3 h-70 hidden md:block rounded-lg overflow-hidden border-4 border-gray-300 dark:border-gray-700">
             <img
-              src="public/developer.webp"
+              src="/developer.webp"
               alt="Profile"
               className="object-cover w-full h-full"
             />
@@ -43,7 +43,7 @@ const AboutMe: React.FC = () => {
                     className={`mr-2 cursor-pointer relative group  ${
                       activeTab === tab
                         ? "text-[#ff2655] border-b-2 border-[#ff2655]"
-                        : "text-blue-700 "
+                        : "text-gray-600 dark:text-gray-400"
                     }`}
                     onClick={() => handleTabClick(tab)}
                   >

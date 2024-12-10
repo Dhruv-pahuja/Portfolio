@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
           </div>
           <div className="flex items-center gap-4">
             <span className="text-[#e71a47] text-xl">&#9742;</span>
-            <p>+91 9988877156</p>
+            <p>+91 99888-77156</p>
           </div>
         </div>
         <div className="flex gap-4 justify-center md:justify-start text-xl">
@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
             <Github size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/in/dhruv-pahuja-658934272/"
+            href="https://www.linkedin.com/in/dhruvpahuja013"
             target="_blank"
             className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition"
           >

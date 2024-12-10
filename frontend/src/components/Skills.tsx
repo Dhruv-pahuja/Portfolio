@@ -14,12 +14,13 @@ const skills = [
   "MongoDB",
   "Redux",
   "Appwrite",
-  "Python",
   "MySQL",
   "Django",
   "Django REST Framework",
   "Git",
   "Docker",
+  "C/C++",
+  "Python",
 ];
 
 
