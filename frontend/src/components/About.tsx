@@ -11,9 +11,9 @@ const AboutMe: React.FC = () => {
   return (
     <section
       id="about"
-      className="min-h-[80vh] mt-5 md:mt-2 flex flex-col items-center justify-center px-6 bg-gray-100 dark:bg-black text-gray-800 dark:text-white"
+      className="min-h-[80vh] w-full mt-5 md:mt-2 flex flex-col items-center justify-center px-1 bg-gray-100 dark:bg-black text-gray-800 dark:text-white"
     >
-      <div className="max-w-5xl w-full text-center">
+      <div className="max-w-5xl w-full text-center ">
         <div className="flex flex-col md:flex-row items-center gap-6 mb-10 w-full">
           <div className="w-1/3 h-70 hidden md:block rounded-lg overflow-hidden border-4 border-gray-300 dark:border-gray-700">
             <img
@@ -22,8 +22,8 @@ const AboutMe: React.FC = () => {
               className="object-cover w-full h-full"
             />
           </div>
-          <div className="w-2/3 flex flex-col md:self-start mt-4">
-            <h1 className="text-3xl font-bold mb-4">
+          <div className="w-2/3 flex flex-col text-center md:self-start mt-4">
+            <h1 className="text-3xl font-bold mb-4 ">
               <span className="text-[#ff2655]">Ab</span>o
               <span className="text-[#ff2655]">u</span>t M
               <span className="text-[#ff2655]">e</span>
@@ -40,7 +40,7 @@ const AboutMe: React.FC = () => {
                 {["skills", "experience", "education"].map((tab) => (
                   <li
                     key={tab}
-                    className={`mr-2 cursor-pointer relative group  ${
+                    className={`mx-4 cursor-pointer relative group  ${
                       activeTab === tab
                         ? "text-[#ff2655] border-b-2 border-[#ff2655]"
                         : "text-gray-600 dark:text-gray-400"
