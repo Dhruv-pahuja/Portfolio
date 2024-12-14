@@ -22,7 +22,7 @@ const Education: React.FC = () => {
   ];
 
   return (
-    <div className="relative">
+    <div className="relative mt-4 max-h-[420px] overflow-auto">
       <div className="border-l-4 border-[#ff2655] absolute h-full left-5 top-0"></div>
       <div className="space-y-5">
         {educationTimeline.map((edu, index) => (
@@ -30,11 +30,9 @@ const Education: React.FC = () => {
             key={index}
             className="flex items-start relative space-x-4 pl-6 pb-4"
           >
-            {/* Timeline Circle */}
             <div className="absolute left-0 w-10 h-8 rounded-full bg-[#ff2655] flex items-center justify-center text-white shadow-md">
               <FaGraduationCap />
             </div>
-            {/* Education Details */}
             <div>
               <h3 className="text-xl font-semibold text-[#ff2655]">
                 {edu.degree}

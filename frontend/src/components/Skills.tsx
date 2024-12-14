@@ -26,7 +26,7 @@ const skills = [
 
 const Skills:React.FC = () => {
     return (
-        <div>
+        <div className='mt-4 max-h-[420px] overflow-auto'>
           <motion.div
             className="flex flex-wrap gap-4 justify-center"
             initial="hidden" 
