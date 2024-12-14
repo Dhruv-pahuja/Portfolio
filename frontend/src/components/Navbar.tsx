@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
   
 
   return (
-    <nav className="py-4 bg-gray-200 dark:bg-black border-y border-gray-500 flex justify-between items-center px-4 rounded-3xl m-3 fixed w-[80vw] place-content-center z-30">
+    <nav className="py-4 bg-gray-200 dark:bg-black border-y border-gray-500 flex justify-between items-center px-4 rounded-3xl m-3 fixed md:w-[70vw] w-[80vw] place-content-center z-30">
       {/* Logo */}
       <h1 className="text-xl md:text-3xl dark:text-white font-bold"><span className="text-[#ff2655]">D</span>hruv.<span className="text-[#ff2655]">P</span>ahuja</h1>
       <button
