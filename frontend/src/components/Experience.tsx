@@ -19,7 +19,7 @@ const Experience: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-8 mt-4 mx-h-[420px] overflow-auto">
+    <div className="flex flex-col gap-8 mt-4 mx-h-[420px] overflow-auto md:overflow-visible">
       {experiences.map((exp, index) => (
         <div
           key={index}

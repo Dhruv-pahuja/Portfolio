@@ -6,5 +6,6 @@ import About from "./About";
 import Skills from "./Skills";
 import Experience from "./Experience";
 import Education from "./Education";
+import Home from "./Home";
 
-export { Layout, Navbar, Contact, ToggleThemeBtn, About,Skills,Experience,Education };
+export { Layout, Navbar, Contact, ToggleThemeBtn, About,Skills,Experience,Education,Home };
