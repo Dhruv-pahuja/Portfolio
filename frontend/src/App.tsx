@@ -1,5 +1,5 @@
 import React from 'react';
-import {Layout,Contact,About,Home} from "./components/index"
+import {Layout,Contact,About,Home,Projects} from "./components/index"
 
 const App: React.FC = () => {
   return (
@@ -8,6 +8,8 @@ const App: React.FC = () => {
         <Home />
         <hr className='mt-8 mx-4 border-gray-400' />
         <About />
+        <hr className='mt-8 mx-4 border-gray-400' />
+          <Projects />
         <hr className='mt-8 mx-4 border-gray-400' />
         <Contact/>
       </section>
