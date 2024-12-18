@@ -21,9 +21,9 @@ const Home:React.FC = () => {
             <div className='flex justify-between mx-10' >
                 <div className='space-y-4 mt-7 mx-10'>
                     <h3 className='text-2xl font-semibold'> Full Stack Developer</h3>
-                    <p className='text-5xl  font-bold'> <span className='text-[#ff2655]'>Hi,</span> I am <span className='text-[#ff2655]'>D</span>hruv <span className='text-[#ff2655]'>P</span>ahuja </p>
+                    <p className='text-5xl  font-bold'> <span className='text-[#ff2655]'>Hi, <br /></span> I am <span className='text-[#ff2655]'>D</span>hruv <span className='text-[#ff2655]'>P</span>ahuja </p>
                     <div>
-                        <button  className='px-6 py-3 text-black dark:bg-gray-300 bg-[#bebfc2] rounded-md dark:hover:bg-gray-400 hover:bg-[#b3b4b5] transition' onClick={()=>handleScroll('contact')}>Contact me</button>
+                        <button  className='px-6 py-3 m-3 text-black dark:bg-gray-300 bg-[#bebfc2] rounded-md dark:hover:bg-gray-400 hover:bg-[#b3b4b5] transition' onClick={()=>handleScroll('contact')}>Contact me</button>
                         <button className='m-3 px-6 py-3 bg-[#e71a47] text-white rounded-md hover:bg-[#b00e31] transition'>Download CV</button>
                     </div>
                 </div>

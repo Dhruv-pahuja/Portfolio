@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="min-h-[90vh] flex flex-col md:flex-row items-center justify-between justify-items-center px-5 py-6 bg-gray-100 dark:bg-black text-gray-800 dark:text-white md:mb-4 mb-7">
+    <section id="contact" className="min-h-[90vh] flex flex-col md:flex-row items-center justify-between justify-items-center px-5 py-6 bg-gray-100 dark:bg-black text-gray-800 dark:text-white md:mb-4 mb-16">
       <div className="space-y-8 md:w-1/2 w-[80vh] flex flex-col items-center self-center md:items-start place-content-center justify-around mt-7 md:mt-0 md:ml-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-center md:text-left">
           Contact Me

@@ -6,11 +6,11 @@ const App: React.FC = () => {
     <Layout >
       <section  className=" mt-[18vh] dark:text-white w-full">
         <Home />
-        <hr className='mt-8 mx-4 border-gray-400' />
+        <hr className='mt-8 md:mx-12 mx-5 border-gray-400' />
         <About />
-        <hr className='mt-8 mx-4 border-gray-400' />
+        <hr className='mt-8 md:mx-12 mx-5 border-gray-400' />
           <Projects />
-        <hr className='mt-8 mx-4 border-gray-400' />
+        <hr className='mt-8 md:mx-12 mx-5 border-gray-400' />
         <Contact/>
       </section>
     </Layout>

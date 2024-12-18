@@ -36,11 +36,11 @@ const AboutMe: React.FC = () => {
               technologies. I'm always open to new opportunities and challenges.
             </p>
             <div>
-              <ul className="flex justify-around p-3 m-1 font-semibold">
+              <ul className="flex md:justify-around justify-center p-4 m-2 font-semibold w-full whitespace-nowrap md:overflow-x-none">
                 {["skills", "experience", "education"].map((tab) => (
                   <li
                     key={tab}
-                    className={`mx-4 cursor-pointer relative group  ${
+                    className={`mx-2 cursor-pointer relative group ${
                       activeTab === tab
                         ? "text-[#ff2655] border-b-2 border-[#ff2655]"
                         : "text-gray-600 dark:text-gray-400"
@@ -49,7 +49,7 @@ const AboutMe: React.FC = () => {
                   >
                     {tab.charAt(0).toUpperCase() + tab.slice(1)}
                     <span
-                      className={`absolute left-0 right-0 bottom-0 h-0.5 bg-[#ff2655]  transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100 ${
+                      className={`absolute left-0 right-0 bottom-0 h-0.5 bg-[#ff2655] transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100 ${
                         activeTab === tab ? "scale-x-100" : ""
                       }`}
                     />
@@ -57,6 +57,7 @@ const AboutMe: React.FC = () => {
                 ))}
               </ul>
             </div>
+
             <div className="mt-4">
               {activeTab === "skills" && <Skills />}
               {activeTab === "experience" && <Experience />}

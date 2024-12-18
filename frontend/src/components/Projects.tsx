@@ -41,7 +41,7 @@ const projects: Project[] = [
 
 const Projects: React.FC = () => {
   return (
-    <section className="py-10 bg-gray-100 dark:bg-black min-h-[80vh]">
+    <section className="py-10 bg-gray-100 dark:bg-black min-h-[80vh]" id="portfolio">
       <div className="max-w-7xl mx-auto px-5">
         <h2 className="text-3xl font-semibold text-gray-800 dark:text-white mb-6">
           My Work
