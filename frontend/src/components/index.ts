@@ -8,5 +8,6 @@ import Experience from "./Experience";
 import Education from "./Education";
 import Home from "./Home";
 import Projects from "./Projects";
+import Services from "./Services";
 
-export { Layout, Navbar, Contact, ToggleThemeBtn, About,Skills,Experience,Education,Home,Projects };
+export { Layout, Navbar, Contact, ToggleThemeBtn, About,Skills,Experience,Education,Home,Projects ,Services};

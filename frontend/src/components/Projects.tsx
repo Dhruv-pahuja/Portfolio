@@ -53,7 +53,7 @@ const Projects: React.FC = () => {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="block rounded-lg overflow-hidden shadow-lg bg-gray-100 dark:bg-gray-900 transform transition-transform duration-300 hover:cursor-pointer hover:scale-105 hover:shadow-2xl"
+              className="block rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-900 transform transition-transform duration-300 hover:cursor-pointer hover:scale-105 hover:shadow-2xl"
             >
               <img
                 src={project.image}
