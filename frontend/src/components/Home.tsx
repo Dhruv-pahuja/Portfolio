@@ -12,6 +12,13 @@ const Home: React.FC = () => {
     }
   };
 
+  const handleCV = () => {
+    window.open(
+      "https://drive.google.com/file/d/1G9t82_Q9hy_xFn_0Cj6v74q64dIzhuAu/view?usp=sharing",
+      "_blank"
+    );
+  };
+
   return (
     <section
       id="home"
@@ -42,6 +49,7 @@ const Home: React.FC = () => {
               Contact Me
             </button>
             <button
+            onClick={() => handleCV()}
               className="px-6 py-3 bg-gray-300 text-black dark:bg-gray-700 dark:text-white rounded-md hover:bg-gray-400 dark:hover:bg-gray-600 transition-transform transform hover:scale-105"
             >
               Download CV

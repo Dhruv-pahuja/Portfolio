@@ -8,6 +8,13 @@ const Contact: React.FC = () => {
     message: "",
   });
 
+  const handleCV = () => {
+    window.open(
+      "https://drive.google.com/file/d/1G9t82_Q9hy_xFn_0Cj6v74q64dIzhuAu/view?usp=sharing",
+      "_blank"
+    );
+  };
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -67,7 +74,7 @@ const Contact: React.FC = () => {
           </a>
         </div>
         <div className="flex justify-center md:justify-start">
-          <button className="px-6 py-3 bg-[#e71a47] text-white rounded-md hover:bg-[#b00e31] transition">
+          <button onClick={()=> handleCV()} className="px-6 py-3 bg-[#e71a47] text-white rounded-md hover:bg-[#b00e31] transition">
             Download CV
           </button>
         </div>
