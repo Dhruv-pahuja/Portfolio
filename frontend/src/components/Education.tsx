@@ -7,7 +7,7 @@ const Education: React.FC = () => {
       year: "2023 - 2027",
       institution: "Chandigarh Engineering College - CGC , Landran, Mohali, India",
       degree: "Bachelor's Of Technology in Computer Science",
-      grade : "7.9 CGPA",
+      grade : "8.04 CGPA",
       description:
         "Focused on Full stack Web development, algorithms, and data structures. Participated in coding competitions and collaborated on academic projects and Open Source contributions.",
     },

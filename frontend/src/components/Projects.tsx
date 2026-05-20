@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "lucide-react";
+import lifestackImg from "../assets/lifestack.png";
+import shopnex from "../assets/shopnex.png";
 
 type Project = {
   id: number;
@@ -11,32 +13,33 @@ type Project = {
 };
 
 const projects: Project[] = [
-  // {
-  //   id: 1,
-  //   title: "DevForum",
-  //   description:
-  //     "DevForum allows developers to ask questions, provide answers, and engage in discussions within a community-driven platform.",
-  //   image: "/path/to/devforum.jpg",
-  //   tags: ["NEXT.JS", "MONGODB", "TAILWIND CSS", "TYPESCRIPT", "SHADCN", "CLERK"],
-  //   link: "https://example.com/devforum",
-  // },
-  // {
-  //   id: 2,
-  //   title: "ViNEXT",
-  //   description:
-  //     "Video conferencing web application with a focus on high-quality video streaming and low-latency communication.",
-  //   image: "/path/to/vinext.jpg",
-  //   tags: ["NEXT.JS", "SHADCN", "CLERK", "STREAM", "TYPESCRIPT", "TAILWINDCSS"],
-  //   link: "https://example.com/vinext",
-  // },
-  // {
-  //   id: 3,
-  //   title: "Full Stack Twitter Clone",
-  //   description: "Twitter clone using modern technologies.",
-  //   image: "/path/to/twitter-clone.jpg",
-  //   tags: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "MONGODB", "RESTFUL API", "CLOUDINARY"],
-  //   link: "https://example.com/twitter-clone",
-  // },
+  {
+    id: 1,
+    title: "HireNex",
+    description:
+      "HireNex is a full-stack MERN job portal that enables recruiters to post jobs and manage applicants while allowing candidates to explore opportunities and apply seamlessly through a modern, responsive platform.",
+    image: "/path/to/hirenex.jpg",
+    tags: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "MONGODB", "TAILWIND CSS", "JAVASCRIPT", "RESTFUL API","JWT"],
+    link: "https://example.com/hirenex",
+  },
+  {
+    id: 2,
+    title: "LifeStack - Integrated personal dashboard",
+    description:
+      "LifeStack is a full-stack productivity and management platform that helps users organize tasks, store documents, and manage workflows through a secure and responsive web application.",
+    image: lifestackImg,
+    tags: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "MONGODB", "TAILWIND CSS", "JAVASCRIPT", "Cloudinary", "JWT","RESTFUL API"],
+    link: "https://example.com/lifestack",
+  },
+  {
+    id: 3,
+    title: "ShopNex - E-commerce platform",
+    description:
+      "ShopNex is a next-generation MERN e-commerce platform focused on smart shopping experiences, modern UI/UX, real-time order workflows, and scalable store management for both customers and sellers.",
+    image: shopnex,
+    tags: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "MONGODB", "TAILWIND CSS", "JAVASCRIPT", "RESTFUL API","Redux"],
+    link: "https://example.com/shopnex",
+  },
 ];
 
 const Projects: React.FC = () => {
@@ -45,9 +48,6 @@ const Projects: React.FC = () => {
       <div className="max-w-7xl mx-auto px-5">
         <h2 className="text-3xl font-semibold text-gray-800 dark:text-white mb-6">
           My Work
-
-          <p className="text-center align-middle text-gray-400">
-            */working on this component/*</p>
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
