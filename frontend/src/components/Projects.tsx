@@ -15,12 +15,12 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "HireNex",
+    title: "NexHire - Job Board Application",
     description:
-      "HireNex is a full-stack MERN job portal that enables recruiters to post jobs and manage applicants while allowing candidates to explore opportunities and apply seamlessly through a modern, responsive platform.",
-    image: "/path/to/hirenex.jpg",
+      "NexHire - Job Board Application is a full-stack MERN job portal that enables recruiters to post jobs and manage applicants while allowing candidates to explore opportunities and apply seamlessly through a modern, responsive platform.",
+    image: "/path/to/NexHire.jpg",
     tags: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "MONGODB", "TAILWIND CSS", "JAVASCRIPT", "RESTFUL API","JWT"],
-    link: "https://example.com/hirenex",
+    link: "https://example.com/NexHire - Job Board Application",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const projects: Project[] = [
       "LifeStack is a full-stack productivity and management platform that helps users organize tasks, store documents, and manage workflows through a secure and responsive web application.",
     image: lifestackImg,
     tags: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "MONGODB", "TAILWIND CSS", "JAVASCRIPT", "Cloudinary", "JWT","RESTFUL API"],
-    link: "https://example.com/lifestack",
+    link: "https://lifestack-gamma.vercel.app/",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const projects: Project[] = [
       "ShopNex is a next-generation MERN e-commerce platform focused on smart shopping experiences, modern UI/UX, real-time order workflows, and scalable store management for both customers and sellers.",
     image: shopnex,
     tags: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "MONGODB", "TAILWIND CSS", "JAVASCRIPT", "RESTFUL API","Redux"],
-    link: "https://example.com/shopnex",
+    link: "https://shop-nex-omega.vercel.app/",
   },
 ];
 
