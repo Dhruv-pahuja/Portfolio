@@ -15,7 +15,7 @@ const Education: React.FC = () => {
       year: "2022 - 2023",
       institution: "L.S.M.S Vidya Mandir, Khanna, India",
       degree: "12th - CBSE Board",
-      grade : "86.7%",
+      grade : "86.6%",
       description:
         "Excelled in Non-Medical and computer science. Developed an early interest in programming and web development.",
     },

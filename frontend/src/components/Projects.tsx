@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "lucide-react";
 import lifestackImg from "../assets/lifestack.png";
-import shopnex from "../assets/shopnex.png";
+import shopnexImg from "../assets/shopnex.png";
+import nexHireImg from "../assets/NexHire.png";
 
 type Project = {
   id: number;
@@ -18,9 +19,9 @@ const projects: Project[] = [
     title: "NexHire - Job Board Application",
     description:
       "NexHire - Job Board Application is a full-stack MERN job portal that enables recruiters to post jobs and manage applicants while allowing candidates to explore opportunities and apply seamlessly through a modern, responsive platform.",
-    image: "/path/to/NexHire.jpg",
-    tags: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "MONGODB", "TAILWIND CSS", "JAVASCRIPT", "RESTFUL API","JWT"],
-    link: "https://example.com/NexHire - Job Board Application",
+    image: nexHireImg,
+    tags: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "MONGODB", "TAILWIND CSS", "JAVASCRIPT", "Redux","RESTFUL API","JWT"],
+    link: "https://nex-hire-beta.vercel.app/",
   },
   {
     id: 2,
@@ -36,7 +37,7 @@ const projects: Project[] = [
     title: "ShopNex - E-commerce platform",
     description:
       "ShopNex is a next-generation MERN e-commerce platform focused on smart shopping experiences, modern UI/UX, real-time order workflows, and scalable store management for both customers and sellers.",
-    image: shopnex,
+    image: shopnexImg,
     tags: ["REACT.JS", "NODE.JS", "EXPRESS.JS", "MONGODB", "TAILWIND CSS", "JAVASCRIPT", "RESTFUL API","Redux"],
     link: "https://shop-nex-omega.vercel.app/",
   },
