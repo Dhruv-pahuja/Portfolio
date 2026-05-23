@@ -63,7 +63,7 @@ const Home: React.FC = () => {
           <div className="relative group">
             <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-gray-300 dark:border-gray-700">
               <img
-                src="/Dhruv.jpg"
+                src="/Dhruv2.jpg"
                 alt="Dhruv"
                 className="w-72 md:w-96 h-auto object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
