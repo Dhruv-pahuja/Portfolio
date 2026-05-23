@@ -52,7 +52,7 @@ const Home: React.FC = () => {
             onClick={() => handleCV()}
               className="px-6 py-3 bg-gray-300 text-black dark:bg-gray-700 dark:text-white rounded-md hover:bg-gray-400 dark:hover:bg-gray-600 transition-transform transform hover:scale-105"
             >
-              Download CV
+              Download Resume
             </button>
           </div>
         </div>

@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
         </div>
         <div className="flex justify-center md:justify-start">
           <button onClick={()=> handleCV()} className="px-6 py-3 bg-[#e71a47] text-white rounded-md hover:bg-[#b00e31] transition">
-            Download CV
+            Download Resume
           </button>
         </div>
       </div>
