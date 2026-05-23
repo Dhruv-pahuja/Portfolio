@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
 
   const handleCV = () => {
     window.open(
-      "https://drive.google.com/file/d/1G9t82_Q9hy_xFn_0Cj6v74q64dIzhuAu/view?usp=sharing",
+      "https://drive.google.com/file/d/1W3UF4AinqeLaYXgplll1DRgrV3qLIJ-v/view",
       "_blank"
     );
   };
